@@ -1,6 +1,6 @@
 # set path to the application
 app_dir  = File.expand_path("../..", __FILE__)
-shared_dir = File.expand_path('../../../shared/', __FILE__)
+shared_dir = File.expand_path('../../../../shared/', __FILE__)
 #shared_dir = "#{app_dir}/shared"
 working_directory app_dir
 
