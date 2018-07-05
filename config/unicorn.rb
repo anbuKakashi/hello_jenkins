@@ -5,7 +5,7 @@ shared_dir = File.expand_path('../../../shared/', __FILE__)
 working_directory app_dir
 
 # Set unicorn options
-worker_processes 1
+worker_processes ENV["RAILS_ENV"] == "development" ? 1 : Integer(ENV["WEB_CONCURRENCY"] || 2)
 preload_app true
 timeout 30
 
