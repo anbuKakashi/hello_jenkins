@@ -30,7 +30,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'unicorn'
 
 # rspec
-#gem 'rspec''
+gem 'rspec'
 
 #gem 'capybara'
 #gem 'selenium-webdriver'
@@ -40,7 +40,7 @@ gem 'unicorn'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-#  gem 'capybara'
+  gem 'capybara'
 #  gem 'selenium-webdriver'
 
 end
