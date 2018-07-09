@@ -96,7 +96,7 @@ end
 
 Capybara.configure do |config|
   config.run_server = false
- # config.current_driver = :selenium
+  config.current_driver = :selenium
   config.app = "fake app name"
 #  config.app_host = "http://happy-partner.thecaption.com"
   config.app_host = "https://qwerty555.captionhospitality.com"
