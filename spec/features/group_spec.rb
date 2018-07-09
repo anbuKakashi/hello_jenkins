@@ -11,6 +11,7 @@ describe "Sign in process" do
 #        end
 #        click_button 'Sign in'
 #        expect('hayy bos !!').to have_content 'hayy bos !!'
+      puts "HelloWorld spec passes!"
       end
     end
 
