@@ -30,7 +30,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'unicorn'
 
 # rspec
-gem 'rspec''
+#gem 'rspec''
 
 #gem 'capybara'
 #gem 'selenium-webdriver'
