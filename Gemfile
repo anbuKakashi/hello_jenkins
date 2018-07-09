@@ -31,8 +31,9 @@ gem 'unicorn'
 
 # rspec
 gem 'rspec'
-gem 'capybara'
-gem 'selenium-webdriver'
+
+#gem 'capybara'
+#gem 'selenium-webdriver'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
