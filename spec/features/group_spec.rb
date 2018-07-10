@@ -10,7 +10,7 @@ describe "Sign in process" do
 #          fill_in '#admin_password', with: '12caption3'
 #        end
 #        click_button 'Sign in'
-        expect('hayy bos !!').to have_content 'hayy bos !!'
+   #     expect('hayy bos !!').to have_content 'hayy bos !!'
       puts "HelloWorld spec passes!"
       end
     end
